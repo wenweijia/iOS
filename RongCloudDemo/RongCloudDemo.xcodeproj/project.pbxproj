@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		145DBC6F6333226B2665C7FE /* libPods-RongCloudDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AADD7FCE0BAB346B31250BA /* libPods-RongCloudDemo.a */; };
+		FBD2E8C41F5FC81B0053667A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD2E8C31F5FC81B0053667A /* main.m */; };
+		FBD2E8C71F5FC81B0053667A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD2E8C61F5FC81B0053667A /* AppDelegate.m */; };
+		FBD2E8CA1F5FC81B0053667A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD2E8C91F5FC81B0053667A /* ViewController.m */; };
+		FBD2E8CD1F5FC81B0053667A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD2E8CB1F5FC81B0053667A /* Main.storyboard */; };
+		FBD2E8CF1F5FC81B0053667A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD2E8CE1F5FC81B0053667A /* Assets.xcassets */; };
+		FBD2E8D21F5FC81B0053667A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD2E8D01F5FC81B0053667A /* LaunchScreen.storyboard */; };
+		FBD2E8DD1F5FC81B0053667A /* RongCloudDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD2E8DC1F5FC81B0053667A /* RongCloudDemoTests.m */; };
+		FBD2E8E81F5FC81B0053667A /* RongCloudDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD2E8E71F5FC81B0053667A /* RongCloudDemoUITests.m */; };
+		FBD2E8F71F5FE31B0053667A /* RCChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD2E8F61F5FE31B0053667A /* RCChatListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBD2E8D91F5FC81B0053667A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBD2E8B71F5FC81B0053667A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBD2E8BE1F5FC81B0053667A;
+			remoteInfo = RongCloudDemo;
+		};
+		FBD2E8E41F5FC81B0053667A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBD2E8B71F5FC81B0053667A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBD2E8BE1F5FC81B0053667A;
+			remoteInfo = RongCloudDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AADD7FCE0BAB346B31250BA /* libPods-RongCloudDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RongCloudDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEFD569C5A95928021BD4D6 /* Pods-RongCloudDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RongCloudDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RongCloudDemo/Pods-RongCloudDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D9D1D5F0F4EB602B3FCFE095 /* Pods-RongCloudDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RongCloudDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RongCloudDemo/Pods-RongCloudDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FBD2E8BF1F5FC81B0053667A /* RongCloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RongCloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD2E8C31F5FC81B0053667A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBD2E8C51F5FC81B0053667A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBD2E8C61F5FC81B0053667A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBD2E8C81F5FC81B0053667A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBD2E8C91F5FC81B0053667A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBD2E8CC1F5FC81B0053667A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBD2E8CE1F5FC81B0053667A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBD2E8D11F5FC81B0053667A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBD2E8D31F5FC81B0053667A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD2E8D81F5FC81B0053667A /* RongCloudDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RongCloudDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD2E8DC1F5FC81B0053667A /* RongCloudDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RongCloudDemoTests.m; sourceTree = "<group>"; };
+		FBD2E8DE1F5FC81B0053667A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD2E8E31F5FC81B0053667A /* RongCloudDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RongCloudDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD2E8E71F5FC81B0053667A /* RongCloudDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RongCloudDemoUITests.m; sourceTree = "<group>"; };
+		FBD2E8E91F5FC81B0053667A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD2E8F51F5FE31B0053667A /* RCChatListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCChatListViewController.h; sourceTree = "<group>"; };
+		FBD2E8F61F5FE31B0053667A /* RCChatListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCChatListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBD2E8BC1F5FC81B0053667A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145DBC6F6333226B2665C7FE /* libPods-RongCloudDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD2E8D51F5FC81B0053667A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD2E8E01F5FC81B0053667A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D404243941C9C122D46028C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9D1D5F0F4EB602B3FCFE095 /* Pods-RongCloudDemo.debug.xcconfig */,
+				9AEFD569C5A95928021BD4D6 /* Pods-RongCloudDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9884783ABE9E245B9AA808B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AADD7FCE0BAB346B31250BA /* libPods-RongCloudDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBD2E8B61F5FC81B0053667A = {
+			isa = PBXGroup;
+			children = (
+				FBD2E8C11F5FC81B0053667A /* RongCloudDemo */,
+				FBD2E8DB1F5FC81B0053667A /* RongCloudDemoTests */,
+				FBD2E8E61F5FC81B0053667A /* RongCloudDemoUITests */,
+				FBD2E8C01F5FC81B0053667A /* Products */,
+				4D404243941C9C122D46028C /* Pods */,
+				9884783ABE9E245B9AA808B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBD2E8C01F5FC81B0053667A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBD2E8BF1F5FC81B0053667A /* RongCloudDemo.app */,
+				FBD2E8D81F5FC81B0053667A /* RongCloudDemoTests.xctest */,
+				FBD2E8E31F5FC81B0053667A /* RongCloudDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBD2E8C11F5FC81B0053667A /* RongCloudDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FBD2E8C51F5FC81B0053667A /* AppDelegate.h */,
+				FBD2E8C61F5FC81B0053667A /* AppDelegate.m */,
+				FBD2E8C81F5FC81B0053667A /* ViewController.h */,
+				FBD2E8C91F5FC81B0053667A /* ViewController.m */,
+				FBD2E8F51F5FE31B0053667A /* RCChatListViewController.h */,
+				FBD2E8F61F5FE31B0053667A /* RCChatListViewController.m */,
+				FBD2E8CB1F5FC81B0053667A /* Main.storyboard */,
+				FBD2E8CE1F5FC81B0053667A /* Assets.xcassets */,
+				FBD2E8D01F5FC81B0053667A /* LaunchScreen.storyboard */,
+				FBD2E8D31F5FC81B0053667A /* Info.plist */,
+				FBD2E8C21F5FC81B0053667A /* Supporting Files */,
+			);
+			path = RongCloudDemo;
+			sourceTree = "<group>";
+		};
+		FBD2E8C21F5FC81B0053667A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBD2E8C31F5FC81B0053667A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBD2E8DB1F5FC81B0053667A /* RongCloudDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBD2E8DC1F5FC81B0053667A /* RongCloudDemoTests.m */,
+				FBD2E8DE1F5FC81B0053667A /* Info.plist */,
+			);
+			path = RongCloudDemoTests;
+			sourceTree = "<group>";
+		};
+		FBD2E8E61F5FC81B0053667A /* RongCloudDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBD2E8E71F5FC81B0053667A /* RongCloudDemoUITests.m */,
+				FBD2E8E91F5FC81B0053667A /* Info.plist */,
+			);
+			path = RongCloudDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBD2E8BE1F5FC81B0053667A /* RongCloudDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD2E8EC1F5FC81B0053667A /* Build configuration list for PBXNativeTarget "RongCloudDemo" */;
+			buildPhases = (
+				078F512610E5790DA4715632 /* [CP] Check Pods Manifest.lock */,
+				FBD2E8BB1F5FC81B0053667A /* Sources */,
+				FBD2E8BC1F5FC81B0053667A /* Frameworks */,
+				FBD2E8BD1F5FC81B0053667A /* Resources */,
+				B211A3DA14519079DF7102E4 /* [CP] Embed Pods Frameworks */,
+				FE61AB6F306D678C49D2532B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RongCloudDemo;
+			productName = RongCloudDemo;
+			productReference = FBD2E8BF1F5FC81B0053667A /* RongCloudDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBD2E8D71F5FC81B0053667A /* RongCloudDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD2E8EF1F5FC81B0053667A /* Build configuration list for PBXNativeTarget "RongCloudDemoTests" */;
+			buildPhases = (
+				FBD2E8D41F5FC81B0053667A /* Sources */,
+				FBD2E8D51F5FC81B0053667A /* Frameworks */,
+				FBD2E8D61F5FC81B0053667A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBD2E8DA1F5FC81B0053667A /* PBXTargetDependency */,
+			);
+			name = RongCloudDemoTests;
+			productName = RongCloudDemoTests;
+			productReference = FBD2E8D81F5FC81B0053667A /* RongCloudDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBD2E8E21F5FC81B0053667A /* RongCloudDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD2E8F21F5FC81B0053667A /* Build configuration list for PBXNativeTarget "RongCloudDemoUITests" */;
+			buildPhases = (
+				FBD2E8DF1F5FC81B0053667A /* Sources */,
+				FBD2E8E01F5FC81B0053667A /* Frameworks */,
+				FBD2E8E11F5FC81B0053667A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBD2E8E51F5FC81B0053667A /* PBXTargetDependency */,
+			);
+			name = RongCloudDemoUITests;
+			productName = RongCloudDemoUITests;
+			productReference = FBD2E8E31F5FC81B0053667A /* RongCloudDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBD2E8B71F5FC81B0053667A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = itg;
+				TargetAttributes = {
+					FBD2E8BE1F5FC81B0053667A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = S7M43MYBGC;
+						ProvisioningStyle = Automatic;
+					};
+					FBD2E8D71F5FC81B0053667A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FBD2E8BE1F5FC81B0053667A;
+					};
+					FBD2E8E21F5FC81B0053667A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FBD2E8BE1F5FC81B0053667A;
+					};
+				};
+			};
+			buildConfigurationList = FBD2E8BA1F5FC81B0053667A /* Build configuration list for PBXProject "RongCloudDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBD2E8B61F5FC81B0053667A;
+			productRefGroup = FBD2E8C01F5FC81B0053667A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBD2E8BE1F5FC81B0053667A /* RongCloudDemo */,
+				FBD2E8D71F5FC81B0053667A /* RongCloudDemoTests */,
+				FBD2E8E21F5FC81B0053667A /* RongCloudDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBD2E8BD1F5FC81B0053667A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD2E8D21F5FC81B0053667A /* LaunchScreen.storyboard in Resources */,
+				FBD2E8CF1F5FC81B0053667A /* Assets.xcassets in Resources */,
+				FBD2E8CD1F5FC81B0053667A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD2E8D61F5FC81B0053667A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD2E8E11F5FC81B0053667A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		078F512610E5790DA4715632 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B211A3DA14519079DF7102E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RongCloudDemo/Pods-RongCloudDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE61AB6F306D678C49D2532B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RongCloudDemo/Pods-RongCloudDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBD2E8BB1F5FC81B0053667A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD2E8CA1F5FC81B0053667A /* ViewController.m in Sources */,
+				FBD2E8F71F5FE31B0053667A /* RCChatListViewController.m in Sources */,
+				FBD2E8C71F5FC81B0053667A /* AppDelegate.m in Sources */,
+				FBD2E8C41F5FC81B0053667A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD2E8D41F5FC81B0053667A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD2E8DD1F5FC81B0053667A /* RongCloudDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD2E8DF1F5FC81B0053667A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD2E8E81F5FC81B0053667A /* RongCloudDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBD2E8DA1F5FC81B0053667A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBD2E8BE1F5FC81B0053667A /* RongCloudDemo */;
+			targetProxy = FBD2E8D91F5FC81B0053667A /* PBXContainerItemProxy */;
+		};
+		FBD2E8E51F5FC81B0053667A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBD2E8BE1F5FC81B0053667A /* RongCloudDemo */;
+			targetProxy = FBD2E8E41F5FC81B0053667A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBD2E8CB1F5FC81B0053667A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBD2E8CC1F5FC81B0053667A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBD2E8D01F5FC81B0053667A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBD2E8D11F5FC81B0053667A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBD2E8EA1F5FC81B0053667A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBD2E8EB1F5FC81B0053667A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBD2E8ED1F5FC81B0053667A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9D1D5F0F4EB602B3FCFE095 /* Pods-RongCloudDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S7M43MYBGC;
+				INFOPLIST_FILE = RongCloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itg.RongCloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBD2E8EE1F5FC81B0053667A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AEFD569C5A95928021BD4D6 /* Pods-RongCloudDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S7M43MYBGC;
+				INFOPLIST_FILE = RongCloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itg.RongCloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FBD2E8F01F5FC81B0053667A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RongCloudDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itg.RongCloudDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RongCloudDemo.app/RongCloudDemo";
+			};
+			name = Debug;
+		};
+		FBD2E8F11F5FC81B0053667A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RongCloudDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itg.RongCloudDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RongCloudDemo.app/RongCloudDemo";
+			};
+			name = Release;
+		};
+		FBD2E8F31F5FC81B0053667A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RongCloudDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itg.RongCloudDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RongCloudDemo;
+			};
+			name = Debug;
+		};
+		FBD2E8F41F5FC81B0053667A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RongCloudDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itg.RongCloudDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RongCloudDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBD2E8BA1F5FC81B0053667A /* Build configuration list for PBXProject "RongCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD2E8EA1F5FC81B0053667A /* Debug */,
+				FBD2E8EB1F5FC81B0053667A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD2E8EC1F5FC81B0053667A /* Build configuration list for PBXNativeTarget "RongCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD2E8ED1F5FC81B0053667A /* Debug */,
+				FBD2E8EE1F5FC81B0053667A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD2E8EF1F5FC81B0053667A /* Build configuration list for PBXNativeTarget "RongCloudDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD2E8F01F5FC81B0053667A /* Debug */,
+				FBD2E8F11F5FC81B0053667A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD2E8F21F5FC81B0053667A /* Build configuration list for PBXNativeTarget "RongCloudDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD2E8F31F5FC81B0053667A /* Debug */,
+				FBD2E8F41F5FC81B0053667A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBD2E8B71F5FC81B0053667A /* Project object */;
+}

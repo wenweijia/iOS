@@ -1,0 +1,7 @@
+platform :ios,  '8.0'
+inhibit_all_warnings!
+target 'RongCloudDemo' do
+pod 'RongCloudIM/IMLib', '~> 2.8.8’
+pod 'RongCloudIM/IMKit', '~> 2.8.8’  
+
+end
